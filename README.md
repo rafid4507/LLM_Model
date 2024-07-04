@@ -19,9 +19,12 @@ Utilized a LLM, specifically from the Transformers library, to analyze trends an
 
 I have used the following parameters to train the model:
 #### parameters:
-number of features, input_dim = 10  
-input_dim must be divisible by num_heads, num_heads = 1
-num_layers = 2
+number of features, input_dim = 10,
+
+input_dim must be divisible by num_heads, num_heads = 1,
+
+num_layers = 2,
+
 hidden_dim = 128
 
 I did not go for hyper parameter tuning. And used only 50 epochs due to the computational complexity.
